@@ -1,0 +1,23 @@
+<% layout("/layout/boilerplate") %>
+
+<div class="mainSignUp mt-3 offset-4 ">
+    <div class="row">
+        <div class="col-10 offset-1">
+            <h1 class="m-2">Login </h1>
+            <form action="/user/login" method="post" novalidate class="needs-validation">
+                <div class="mb-3 mt-3">
+                    <label class="form-label" for="username">Username:</label>
+                    <input type="text" name="username" id="username" required class="form-control">
+                    <div class="invalid-feedback">Please enter username</div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="password">Password:</label>
+                    <input type="password" name="password" id="password" required class="form-control">
+                    <div class="invalid-feedback">Please enter password</div>
+                </div>
+                <button type="submit" class="btn btn-primary offset-4">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</div>

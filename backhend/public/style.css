@@ -1,0 +1,182 @@
+ body{
+  padding-top: 7rem;
+  min-height:100vh;
+  display: flex;
+  flex-direction: column;
+
+ }
+
+ .container-mainBody{
+  flex: 1;
+ }
+
+        .line{
+          border-top:2px solid black;
+          color:black;
+        
+        }
+        h3{
+            margin-left :50px;
+            padding:20px;
+        }
+        
+        .fa-hotel{
+          color:brown;
+          font-size: 2rem !important;
+          margin-left:20px;
+        }
+        .nav-link{
+          margin-right:10px;
+          color: #222222 !important;
+        }
+       .navbar {
+        position: fixed;
+        width:100%;
+        top:0;
+        z-index: 1030;
+        height: 5rem;
+        background-image: linear-gradient(to right,rgb(250, 250, 250),rgb(243, 114, 114)) !important;
+}
+ .info-main{
+         background-image: linear-gradient(to left,rgb(250, 250, 250),rgb(243, 114, 114)) !important;
+         display:flex;
+         flex-direction: column;
+ }
+ .info-social, .info-copyRight , .info-links{
+         width:100%;
+           align-items: center;
+         justify-content: center;
+         text-align: center;
+         margin:8px;
+ }
+
+ .info-social  > .fa-brands{
+   font-size:1.5rem;
+   margin-right:5px;
+ }
+ .info-links a{
+  text-decoration: none;
+  margin-right:7px;
+  color:#222222;
+ }
+.info-links a:hover{
+   text-decoration:underline;
+   transform:scale(1.2);
+   cursor: pointer;
+ }
+ .card-listing{
+  border-radius:20px;
+  border:none;
+  margin-bottom:10px !important;
+
+ }
+ .card-img:hover{
+  box-shadow: 5px 2px 2px black;
+  opacity: 0.8;
+
+ }
+ .card-text{
+   padding: 0 !important;
+ }
+ .card .card-img{
+   width:100% !important;
+   border-radius: 2rem;
+   object-fit: cover!important;
+ }
+ .link-listing{
+  text-decoration: none;
+  color:#222222;
+ }
+ .addBtn{
+  display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
+ }
+ 
+ .show-img{
+   height:20rem;
+ }
+
+ .btns{
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+ }
+
+ .card-body{
+    padding: 0;
+    padding-top: 5px;
+ }
+
+ .mainBodyBack {
+  position: relative;
+  width: 100%;
+  height: 40rem;
+  margin-bottom: 30px;
+}
+
+.mainBodyBack img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.mainContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  display: flex;
+  flex-direction: column; /* optional */
+  justify-content: center;
+  align-items: center;
+  color: white; /* if overlay on image */
+  text-align: center;
+  height:250px;
+  width: 500px;
+    background-color: rgba(240, 248, 255, 0.5); 
+    color: black; /* or white depending on background image */
+  text-align: center;
+
+  border-radius: 15px; /* optional: make it look cleaner */
+  padding: 1rem;
+  font-family:'Poppins', sans-serif;
+;
+}
+.mainContent .spanBox{
+  background-image: linear-gradient(yellow,goldenrod);
+  transform: skew(-20deg);
+  padding:3px;
+  display: inline-block;
+  margin:2px;
+}
+
+.alerts{
+  margin:5px;
+  padding :0 !important;
+  size: 0.8em !important;
+}
+#searchBox{
+ margin-right: 100px;
+ width:350px;
+}
+.alerts{
+     display: flex !important;
+        justify-content: center !important;
+}
+.alertBox{
+   width:700px;
+   
+}
+.mainSignUp{
+  padding:3px;
+  border:1px solid black;
+  width:400px;
+  height:400px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 10px black;
+  background-image: linear-gradient(to left,yellow,goldenrod);
+}
